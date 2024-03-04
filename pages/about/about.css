@@ -1,0 +1,144 @@
+@font-face {
+    font-family: VarelaRound-Regular;
+    src: url("../../packages/fonts/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+#text {
+    width: 60%;
+
+}
+
+#text>h1 {
+    color: #00fdd3;
+
+    font-family: VarelaRound-Regular;
+
+}
+
+#text>p {
+    color: white;
+    font-size: 17px;
+    font-family: VarelaRound-Regular;
+
+}
+
+#thankVolenteer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 18, 18);
+    width: 80%;
+    border-radius: 35px;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+#thankVolenteer>img {
+    width: 350px;
+    height: 350px;
+    margin-top: 7%;
+    border-radius: 25px;
+    margin-left: 7%;
+
+}
+
+/* --------------------------------------פעילות הארגון ----------------------------------*/
+#title {
+    margin-top: 15%;
+    text-align: center;
+    color: #fff;
+    font-family: VarelaRound-Regular;
+    font-size: 50px;
+}
+
+#title>i {
+    color: #00fdd3;
+    font-size: 60px;
+}
+
+#activity {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+#activity>div {
+    width: 20%;
+    padding: 0.5%;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#activity>div>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#activity>div>h1 {
+    font-size: 150%;
+    font-family: VarelaRound-Regular;
+    color: #ffff;
+}
+
+#activity>div>p {
+    font-size: 100%;
+    font-family: VarelaRound-Regular;
+    color: #fff;
+}
+
+#activity>div>h2 {
+    font-size: 120%;
+    font-family: VarelaRound-Regular;
+    color: #00fdd3;
+}
+
+#spacial-children>#spacial {
+    animation-name: spacial-children;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    color: #00fdd3;
+    font-size: 20px;
+}
+
+/* ------------------------סקר---------------------------------------------------------- */
+#seker>h1{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    color: #00fdd3;
+    font-family: VarelaRound-Regular;
+    font-size: 50px;
+}
+
+#seker>p{
+    margin-right: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    color: #00fdd3;
+    font-family: VarelaRound-Regular;
+    font-size: 25px;
+}
+
+#seker>ul>li{
+    margin-right: 20%;
+    margin-top: 2%;
+    list-style-type: none;
+    color: #fff;
+    font-family: VarelaRound-Regular;
+    font-size: 20px;
+}
+#seker>ul>li>div{
+    color: #00fdd3;
+}
